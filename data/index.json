@@ -1,0 +1,288 @@
+{
+  "errno": 0,
+  "data": {
+    "logo": [
+      "logo_b.png",
+      "logo_w.png"
+    ],
+    "menu": [
+      "产品",
+      "魅族商城",
+      "专卖店",
+      "服务支持",
+      "魅族社区",
+      "Flyme"
+    ],
+    "banner": [
+      "bn_01.jpg",
+      "bn_02.png",
+      "bn_03.jpg",
+      "bn_04.jpg",
+      "bn_05.jpg",
+      "bn_06.jpg"
+    ],
+    "meizu": {
+      "cls": "meizu",
+      "title": "魅族手机",
+      "list": [
+        {
+          "name": "",
+          "price": "¥2999",
+          "src": "mz_00.jpg",
+          "gid": "pro6plus"
+        },
+        {
+          "name": "PRO 6s",
+          "price": "¥2699",
+          "src": "mz_01.jpg",
+          "gid": "pro6plus"
+        },
+        {
+          "name": "PRO 6",
+          "price": "¥2299",
+          "src": "mz_02.jpg",
+          "gid": "pro6plus"
+        },
+        {
+          "name": "PRO 5",
+          "price": "¥2199",
+          "src": "mz_03.jpg",
+          "gid": "pro6plus"
+        },
+        {
+          "name": "MX 6",
+          "price": "¥1599",
+          "src": "mz_04.jpg",
+          "gid": "pro6plus"
+        }
+      ]
+    },
+    "meilan": {
+      "cls": "meilan",
+      "title": "魅蓝手机",
+      "list": [
+        {
+          "name": "魅蓝 5s",
+          "price": "¥799",
+          "src": "ml_01.jpg",
+          "gid": "pro6plus"
+        },
+        {
+          "name": "魅蓝 Note5",
+          "price": "¥999",
+          "src": "ml_02.jpg",
+          "gid": "pro6plus"
+        },
+        {
+          "name": "魅蓝 X",
+          "price": "¥1699",
+          "src": "ml_03.jpg",
+          "gid": "pro6plus"
+        },
+        {
+          "name": "魅蓝 5",
+          "price": "¥699",
+          "src": "ml_04.jpg",
+          "gid": "pro6plus"
+        },
+        {
+          "name": "魅蓝 Max",
+          "price": "¥1699",
+          "src": "ml_05.jpg",
+          "gid": "pro6plus"
+        },
+        {
+          "name": "魅蓝 E",
+          "price": "¥1299",
+          "src": "ml_06.jpg",
+          "gid": "pro6plus"
+        },
+        {
+          "name": "魅蓝 U10",
+          "price": "¥799",
+          "src": "ml_07.jpg",
+          "gid": "pro6plus"
+        },
+        {
+          "name": "魅蓝 U20",
+          "price": "¥899",
+          "src": "ml_08.jpg",
+          "gid": "pro6plus"
+        },
+        {
+          "name": "魅蓝 3s",
+          "price": "¥699",
+          "src": "ml_09.jpg",
+          "gid": "pro6plus"
+        },
+        {
+          "name": "魅蓝 3",
+          "price": "¥599",
+          "src": "ml_10.jpg",
+          "gid": "pro6plus"
+        }
+      ]
+    },
+    "accessory": {
+      "cls": "acc",
+      "title": "智能硬件/配件",
+      "list": [
+        {
+          "name": "魅族蓝牙小音箱",
+          "price": "¥169",
+          "src": "yj_01.png",
+          "gid": "pro6plus"
+        },
+        {
+          "name": "魅族手环",
+          "price": "¥229",
+          "src": "yj_02.png",
+          "gid": "pro6plus"
+        },
+        {
+          "name": "魅族轻智能手表mix",
+          "price": "¥999",
+          "src": "yj_03.png",
+          "gid": "pro6plus"
+        },
+        {
+          "name": "魅族盒子",
+          "price": "¥399",
+          "src": "yj_04.png",
+          "gid": "pro6plus"
+        },
+        {
+          "name": "路由器极速版",
+          "price": "¥199",
+          "src": "yj_05.png",
+          "gid": "pro6plus"
+        },
+        {
+          "name": "环窗智能保护套",
+          "price": "¥99",
+          "src": "yj_06.png",
+          "gid": "pro6plus"
+        },
+        {
+          "name": "音乐智能保护套",
+          "price": "¥149",
+          "src": "yj_07.png",
+          "gid": "pro6plus"
+        },
+        {
+          "name": "移动电源（标准版）",
+          "price": "¥99",
+          "src": "yj_08.png",
+          "gid": "pro6plus"
+        },
+        {
+          "name": "休闲旅行双肩包",
+          "price": "¥199",
+          "src": "yj_09.png",
+          "gid": "pro6plus"
+        },
+        {
+          "name": "EP2X",
+          "price": "¥129",
+          "src": "yj_10.png",
+          "gid": "pro6plus"
+        },
+        {
+          "name": "EP51",
+          "price": "¥269",
+          "src": "yj_11.png",
+          "gid": "pro6plus"
+        },
+        {
+          "name": "HD50",
+          "price": "¥399",
+          "src": "yj_12.png",
+          "gid": "pro6plus"
+        }
+      ]
+    },
+    "service": {
+      "cls": "service",
+      "list": [
+        {
+          "name": "魅族以旧换新",
+          "src": "yj_13.png",
+          "gid": "pro6plus"
+        },
+        {
+          "name": "百城速达真「快」递",
+          "src": "yj_14.png",
+          "gid": "pro6plus"
+        }
+      ]
+    },
+    "social": {
+      "title": "关注我们",
+      "list": [
+        "icon_01.png",
+        "icon_02.png",
+        "icon_03.png"
+      ]
+    },
+    "footer": {
+      "nav": [
+        {
+          "title": "魅族商城",
+          "items": [
+            "商城首页",
+            "品牌日",
+            "商品分类",
+            "我的订单"
+          ]
+        },
+        {
+          "title": "服务支持",
+          "items": [
+            "自助服务",
+            "以旧换新",
+            "联系我们"
+          ]
+        },
+        {
+          "title": "魅族社区",
+          "items": [
+            "论坛首页",
+            "综合讨论",
+            "魅族手机",
+            "魅蓝手机"
+          ]
+        }
+      ],
+      "language": [
+        {
+          "type": "English",
+          "src": "icon_05.png"
+        },
+        {
+          "type": "India",
+          "src": "icon_06.png"
+        },
+        {
+          "type": "Italia",
+          "src": "icon_07.png"
+        },
+        {
+          "type": "简体中文",
+          "src": "icon_08.png"
+        },
+        {
+          "type": "简体中文",
+          "src": "icon_04.png"
+        }
+      ],
+      "info": {
+        "name": "珠海市魅族通讯设备有限公司",
+        "address": "地址：广东省珠海市唐家湾科技创新海岸魅族科技楼",
+        "tel": "电话：0756-6130440 ",
+        "filing_licenes": "粤ICP备13003602号-2 粤B2-20130198 营业执照",
+        "copyright": "©2017 Meizu All rights reserved."
+      },
+      "goTop": "goTop.jpg"
+    }
+  }
+}

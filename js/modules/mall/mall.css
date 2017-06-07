@@ -1,0 +1,273 @@
+.mall-header,
+.cates-section{
+	color: #333;
+}
+.mall-header {
+	position: relative;
+	background-color: #fff;
+}
+.header h3 {
+	width: 150px;
+	margin: 0 auto;
+	font-size: 18px;
+	line-height: 60px;
+	text-align: center;
+}
+.header .user-icon {
+	float: right;
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	margin: 19px 10px 0 0;
+}
+
+
+/* 轮播图 */
+.banner-list {
+	position: relative;
+}
+.banner-list .point {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 10px 0;
+	text-align: center;
+	font-size: 0;
+}
+.banner-list .point span {
+	display: inline-block;
+	height: 6px;
+	width: 6px;
+	border-radius: 50%;
+	margin: 0 5px;
+	background-color: #c8c9cb;
+}
+.banner-list .point span.on {
+	background-color: #00c3f5;
+}
+
+.cates-section {
+	font-size: 13px;
+	margin-top: 10px;
+	background-color: #fff;
+}
+
+.cates-wrapper ul li {
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+.cates-item a{
+	padding: 15px 0;
+	display: inline-block;
+	width: 100%;
+}
+.cates-item img {
+	width: 50%;
+	margin-bottom: 2px;
+}
+.cates-item span {
+	display: block;
+}
+
+.top3-wrapper {
+	background-color: #fff;
+}
+.top3-wrapper::before {
+	content: '';
+	display: block;
+	height: 10px;
+	background-color: #efefef;
+}
+.top3 li {
+	position: relative;
+	float: left;
+	width: 33.33333333%;
+}
+.top3 li:not(.first)::after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	content: '';
+	display: block;
+	width: 10px;
+	height: 100%;
+	background-color: #efefef;
+}
+.top3 li img {
+	width: 100%;
+}
+
+
+
+/* 热品推荐 */
+.hotPro-section {
+	margin-top: 10px;
+}
+.title-wrapper {
+	position: relative;
+	padding: 13px 10px;
+}
+.hot-title {
+	background-color: #fff;
+}
+.title-wrapper::after {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 100%;
+	content: '';
+	display: block;
+	height: 1px;
+	background-color: #eee;
+}
+.list-title {
+	font-size: 15px;
+	padding-left: 10px;
+	border-left: 3px solid #00c3f5;
+}
+.good-wrapper {
+	background-color: #fff;
+}
+.hot-good {
+	float: left;
+	width: 50%;
+	padding: 1.05em .6em;
+	box-sizing: border-box;
+	position: relative;
+}
+.hot-good::after {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: block;
+	content: '';
+	height: 1px;
+	background-color: #eee;
+}
+.hot-good::before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	display: block;
+	content: '';
+	width: 1px;
+	background-color: #eee;
+}
+.hot-good:first-child .pic{
+	width: 66.66666666%;
+}
+.good-info {
+	float: left;
+}
+.pic {
+	float: right;
+	width: 40%;
+}
+.pic img {
+	width: 100%;
+}
+.intro h4{
+	font-weight: normal;
+	color: #555;
+	font-size: 13px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.activity{
+	color: #f0415f;
+	font-size: 12px;
+}
+.activity i{
+	background-color: #f0415f;
+	color: #fff;
+	font-style: normal;
+    padding: 0 2px;
+}
+.price span {
+	color: #f0415f;
+
+}
+
+
+/* 手机、硬件、配件 */
+.gd-wrapper {
+	position: relative;
+	float: left;
+	width: 50%;
+	text-align: center;
+    padding: 0 10px 15px;
+    box-sizing: border-box;
+    border-bottom: 4px solid #efefef;
+}
+.gd-wrapper:nth-child(n){
+    border-left: 4px solid #efefef;
+}
+.gd-wrapper:nth-child(odd){
+    border-left: 4px solid #fff;
+}
+.good-pic {
+	padding-top: 20px;
+	position: relative;
+}
+.good-pic > img {
+	width: 77.77777777%;
+}
+.good-sign {
+	position: absolute;
+	top: 15px;
+	right: 5px;
+	width: 30px;
+	height: 30px;
+	color: #fff;
+	border-radius: 15px;
+	line-height: 30px;
+	font-size: 13px;
+}
+.gd-info p {
+	margin: 4px 0;
+	font-size: 12px;
+}
+.intro > p > span {
+	color: #999;
+}
+.intro .hl span {
+	color: #f0415f;
+}
+
+/* 广告 */
+.ad-wrapper {
+	width: 100%;
+	overflow: hidden;
+}
+.ad-banner {
+	width: 200%;
+	overflow: hidden;
+}
+.ad-item {
+	width: 50%;
+	float: left;
+}
+.ad-item img {
+	width: 100%;
+}
+
+
+#mall-footer {
+	background-color: #efefef;
+	padding: 1em 2em;
+	font-size: 12px;
+	text-align: center;
+}
+.mall-footer img{
+	float: left;
+	width: 4em;
+	margin-left: 1em;
+}
+.mall-footer span {
+	line-height: 4em;
+}

@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>MEIZU</title>
+	<meta name="viewport" content="initial-scale=1, 
+	maximum-scale=1, minimum-scale=1, user-scalable=no,
+	width=device-width">
+</head>
+<body>
+	<div id="app" :class="currentView === 'good' ? 'app' : ''">
+		<!-- 自定义组件容器元素 -->
+		<component v-bind:is="currentView"></component>
+	</div>
+<script type="text/template" id="index_temp">
+	<!-- 头部模块 -->
+	<section class="header-wrapper">
+		<header class="header">
+			<!-- 头部栏 -->
+			<div class="headerbar clearfix" id="header_bar">
+				<a class="header-left" href="" :style="{
+					backgroundImage: 'url(img/index/'+ logo[0] +')'
+				}" v-if="logo[0]"></a>
+				<span class="header-right drown-menu-icon" v-on:touchstart="toggleMenu"></span>
+			</div>
+			<!-- 头部菜单 -->
+			<div class="menu" id="menu">
+				<ul >
+					<li v-for="item in menu">
+						<a class="menu-item" href="#/mall">{{item}}</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+	</section>
+	<!-- 半透明黑色背景层 -->
+	<div class="bg-mask" id="m-mask" v-on:click="toggleMenu"></div>
+
+	<!-- 轮播图 -->
+	<section class="section banner-section">
+		<div class="banner-wrapper">
+			<!-- 头部菜单 -->
+			<div class="banner-list clearfix" >
+				<ul id="banner">
+					<li class="list-item" v-for="item in banner">
+						<a>
+							<img :src="'img/index/'+ item">
+						</a>
+					</li>
+				</ul>
+				<div class="point" id="point">
+					<span :data-index="$index" v-for="item in banner" :class="$index === 0 ? 'on' : ''"></span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- 魅族手机 -->
+	<template v-for="item in data">
+		<section :class="['section', item.cls+'-section']">
+			<!-- 标题 -->
+			<template v-if="item.title">
+				<h3>{{item.title}}</h3>
+			</template>
+			<template v-if="item.list[0].src == 'mz_00.jpg'">
+				<ul class="flagship-good">
+					<li>
+						<a :href="'#/good/'+ item.list[0].gid">
+							<img :src="'img/index/'+item.list[0].src">
+						</a>
+					</li>
+				</ul>
+			</template>
+			<!-- 列表 -->
+			<ul class="mp-list clearfix">
+				<li v-for="btem in item.list" v-if="btem.src !== 'mz_00.jpg'">
+					<a :href="'#/good/'+ btem.gid">
+						<img :src="'img/index/'+btem.src" alt="">
+						<span>{{btem.name}}</span>
+						<span>{{btem.price}}</span>
+					</a>
+				</li>
+			</ul>
+		</section>
+	</template>
+
+	
+	<!-- 关注我们 -->
+	<section class="section social-section">
+		<div class="social">
+			<p>{{social.title}}</p>
+			<ul  class="social-list clearfix">
+				<li v-for="item in social.list">
+					<a><img :src="'img/index/'+item"></a>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+
+	<div class="go-top" v-on:touchstart="goTop" id="go-top" v-show="isShowGoTop">
+		<!-- <img :src="'img/index/'+ footer.goTop"> -->
+		<em>Top</em>
+	</div>
+	<!-- 信息 -->
+	<footer class="footer" v-if="footer">
+
+		<!-- 底部导航 -->
+		<div class="footer-nav">
+			<dl v-for="item in footer.nav">
+				<template v-if="$index === 0">
+					<dt v-on:touchstart="toggleList" id="mz-mall-btn">{{item.title}}</dt>
+				</template>
+				<dt v-else>{{item.title}}</dt>
+				<dd :id="item.title === '魅族商城' ? 'mz-mall-list' : '' ">
+					<a v-for="btem in item.items">{{btem}}</a>
+				</dd>
+			</dl>
+		</div>
+		<!-- 版本、语言信息 -->
+		<div class="info">
+			<span v-if="footer.language">电脑版</span>
+			<span v-if="footer.language">法律声明</span>
+			<div class="language" >
+				<ul>
+					<li v-for="item in footer.language">
+						<i :style="{
+						backgroundImage: 'url(img/index/'+ item.src +')'
+						}"></i>
+						<span>{{item.type}}<i class="arrow"></i></span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- 备案版权信息 -->
+		<p class="copyright">
+			<span v-for="item in footer.info">
+				{{item}}<br>
+			</span>
+		</p>
+	</footer>
+</script>
+<script type="text/template" id="mall_temp">
+	<!-- 头部 -->
+	<section class="header-wrapper mall-header">
+		<header class="header">
+			<!-- 头部栏 -->
+			<div class="headerbar clearfix" id="header_bar">
+				<a class="header-left" href="" :style="{
+					backgroundImage: 'url(img/mall/'+ header.logo +')'
+				}" v-if="header.logo"></a>
+				<i class="user-icon" :style="{
+					backgroundImage: 'url(img/mall/'+ header.user +')'
+				}" v-on:touchstart="" v-if="header.user"></i>
+				<h3>魅族商城</h3>
+			</div>
+		</header>
+	</section>
+
+	<!-- 轮播图 -->
+	<section class="section banner-section banner-mall">
+		<div class="banner-wrapper">
+			<!-- 头部菜单 -->
+			<div class="banner-list clearfix" >
+				<ul id="banner">
+					<li class="list-item" v-for="item in banner">
+						<a>
+							<img :src="'img/mall/'+ item">
+						</a>
+					</li>
+				</ul>
+				<div class="point" id="mall-point">
+					<span :data-index="$index" v-for="item in banner" :class="$index === 0 ? 'on' : ''"></span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- 分类列表 -->
+	<section class="section cates-section">
+		<div class="cates-wrapper">
+			<ul class="cates clearfix">
+				<li v-for="item in cates" class="cates-item">
+					<a>
+						<img :src="'img/mall/'+ item.src">
+						<span class="item-type">{{item.type}}</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="top3-wrapper">
+			<ul class="top3 clearfix">
+				<li v-for="item in top3" class="top3-item" :class="$index === 2 ? 'first' : ''">
+					<a :href="'#/good/'+ item.gid">
+						<img :src="'img/mall/'+ item.src">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<!-- 热品推荐 -->
+	<section class="good-section hotPro-section">
+		<div class="title-wrapper hot-title">
+			<h3 class="list-title">{{hotPro.title}}</h3>
+		</div>
+		<div class="hot-wrapper good-wrapper clearfix">
+			<div class="hot-good" v-for="item in hotPro.items">
+				<a class="clearfix">
+					<div class="good-info">
+						<div class="intro">
+							<h4>{{item.name}}</h4>
+							<p :class="item.flag ? 'activity' : ''">
+								<i>{{item.flag}}</i>
+								<span>{{item.info}}</span>
+							</p>
+						</div>
+						<div class="price">
+							<span class="p-sale">{{item.price}}</span>
+							<del class="p-ori">{{item.originPrice}}</del>
+						</div>
+					</div>
+					<div class="pic">
+						<img :src="'img/mall/'+ item.src">
+					</div>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- 手机、配件、硬件、周边 -->
+	<section class="main-section">
+		<div class="goods-wrapper clearfix" v-for="item in list">
+			<div class="ad-wrapper">
+				<ul :id="'ad-banner'+$index" class="ad-banner clearfix">
+					<li class="ad-item" v-for="btem in item.ad">
+						<a>
+							<img :src="'img/mall/'+ btem">
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="title-wrapper">
+				<h3 class="list-title">{{item.title}}</h3>
+			</div>
+			<div class="good-wrapper gd-wrapper" v-for="ctem in item.items">
+				<a>
+					<div class="good-pic">
+						<img :src="'img/mall/'+ ctem.src">
+						<span :class="[ctem.sign ? 'good-sign' : '']" :style="{backgroundColor: ctem.signColor}">{{ctem.sign}}</span>
+					</div>
+					<div class="gd-info">
+						<div class="intro">
+							<h4>{{ctem.name}}</h4>
+							<p :class="[ctem.hl ? 'hl': '', ctem.flag ? 'activity' : '']">
+								<i>{{ctem.flag}}</i>
+								<span>{{ctem.info}}</span>
+							</p>
+						</div>
+						<div class="price">
+							<span>{{ctem.price}}</span>
+							<del>{{ctem.originPrice}}</del>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<div class="go-top" v-on:touchstart="goTop" id="go-top" v-show="ShowGoTop">
+		<!-- <img :src="'img/index/'+ footer.goTop"> -->
+		<em>Top</em>
+	</div>
+
+	<template v-if="footer.src">
+		<footer class="mall-footer clearfix" id="mall-footer">
+			<img :src="'img/mall/'+ footer.src"><span>{{footer.weixin}}</span>
+		</footer>
+	</template>
+</script>
+<script type="text/template" id="good_temp">
+	<!-- 头部选项卡 -->
+	<header class="good-header">
+		<a v-if="header.src" v-on:touchstart="goBack"><i :style="{
+			backgroundImage: 'url(img/icon/'+ header.src +')'
+		}"></i></a>
+		<nav class="header-nav" id="header-nav">
+			<a v-for="cnt in header.cnts" :class="[$index === 0 ? 'active' : '']" v-on:touchstart="toggleOption('header-nav', $index)">{{cnt}}</a>
+		</nav>
+	</header>
+
+	<main class="main" id="main">
+		<div class="main-inner" id="main-inner">
+			<!-- 商品简介 -->
+			<div class="p-goods" id="goods" :class="index === 0 ? 'active': ''">
+				<!-- 轮播图 -->
+				<section class="gd-banner">
+					<div class="banner-wrapper banner-list pd-b">
+						<ul id="good-banner" class="clearfix">
+							<li v-for="bn in banner">
+								<a>
+									<img :src="'img/pro6plus/'+ bn">
+								</a>
+							</li>
+						</ul>
+						<div class="point" id="good-point">
+							<span :data-index="$index" v-for="points in banner" :class="$index === 0 ? 'on' : ''"></span>
+						</div>
+					</div>
+				</section>
+
+				<!-- 商品价格名称等信息 -->
+				<section class="gd-some-section">
+					<div class="gd-some-info">
+						<div class="info-header">
+							<a v-if="info.src">
+								{{info.sign}}
+								<i :style="{
+									backgroundImage: 'url(img/icon/'+info.src+')'
+								}"></i>
+							</a>
+							<h3>{{info.name}}</h3>
+						</div>
+						<div class="info-price">
+							<span>{{info.price}}</span>
+						</div>
+						<div class="info-message">
+							<p>{{info.message}}</p>
+						</div>
+					</div>
+					<!-- 服务支持 -->
+					<div class="info-service">
+						<i v-if="services.right" :style="{
+							backgroundImage: 'url(img/icon/'+services.right+')'
+						}" class="icon-right"></i>
+						<ul class="clearfix">
+							<li v-for="service in services.list">
+								<i :style="{
+								backgroundImage: 'url(img/icon/'+services.src+')'
+								}"></i>{{service}}
+							</li>
+						</ul>
+					</div>
+					<!-- 选中商品 -->
+					<div class="info-selected">
+						<label>已选</label>
+						<p>
+							<span>公开版,香槟金,64GB</span><span>×1</span>
+						</p>
+						<i v-if="services.right" :style="{
+							backgroundImage: 'url(img/icon/'+services.right+')'
+						}" class="icon-right"></i>
+					</div>
+					<div class="info-suda">
+						<span>服务</span>
+						<p>本商品由<em>{{provider}}</em>负责发货并提供售后服务</p>
+					</div>
+				</section>
+				
+				<div class="loadMore">{{loadMore[0]}}</div>
+			</div>
+			<!-- 商品详情 -->
+			<div class="p-description" id="p-description" :class="index === 1 ? 'active': ''">
+				<div class="info-more-container">
+					<article>
+						<template v-for="img in description">
+							<img :src="'img/pro6plus/'+ img" >
+						</template>
+					</article>
+				</div>
+			</div>
+			<!-- 商品规格 -->
+			<div class="p-standard" id="p-standard" :class="index === 2 ? 'active': ''">
+				<div class="standard-container">
+					<table>
+						<template v-for="item in standard">
+							<tr v-if="item.title" class="table-standard-group">
+								<th colspan="2">{{item.title}}</th>
+							</tr>
+							<tr v-for="btem in item.list">
+								<th>{{btem.key}}</th>
+								<td>
+									<template v-if="typeof btem.value != 'string'">
+										<template  v-for="ctem in btem.value" >
+											{{ctem}}<br v-if="btem.value.length > 1">
+										</template>
+									</template>
+									<template v-if="typeof btem.value === 'string'">{{btem.value}}</template>
+								</td>
+							</tr>
+						</template>
+					</table>
+				</div>
+				<div class="loadMore">{{loadMore[4]}}</div>
+			</div>
+		</div>
+	</main>
+
+
+	<footer class="gd-footer fixed-footer">
+		<div class="gd-total">
+		{{footer.sum}}<span>{{footer.price}}</span>
+		</div>
+		<button class="btn btn-danger" id="buy-btn">{{footer.text}}</button>
+	</footer>
+
+	<div class="go-top good-go-top" v-on:touchstart="goTop" v-show="ShowGoodGoTop">
+		<!-- <img :src="'img/index/'+ footer.goTop"> -->
+		<em>Top</em>
+	</div>
+</script>
+<script type="text/javascript" data-main="js/main.js" src="js/lib/require.js"></script>
+</body>
+</html>

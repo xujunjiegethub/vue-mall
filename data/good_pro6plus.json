@@ -1,0 +1,386 @@
+{
+  "errno": 0,
+  "data": {
+    "header": {
+      "src": "icon-back.png",
+      "cnts": [
+        "商品",
+        "详情",
+        "参数"
+      ]
+    },
+    "banner": [
+      "gd_ef_01.jpg",
+      "gd_ef_02.jpg",
+      "gd_ef_03.jpg"
+    ],
+    "info": {
+      "name": "魅族PRO 6 Plus",
+      "price": "¥ 2999.00",
+      "src": "icon-favorite.png",
+      "sign": "收藏",
+      "message": "3月6日10点起，购64G版本，享3期免息"
+    },
+    "services": {
+      "src": "icon-support.png",
+      "list": [
+        "花呗分期",
+        "顺丰包邮",
+        "7天无理由退货"
+      ],
+      "right": "icon-right.png"
+    },
+    "layer": {
+      "srcs": [
+        "summary-gold-pic.jpg",
+        "summary-gray-pic.jpg",
+        "summary-sliver-pic.jpg"
+      ],
+      "list": [
+        {
+          "title": "版本",
+          "texts": [
+            "128G版",
+            "64G版本"
+          ]
+        },
+        {
+          "title": "网络类型",
+          "texts": [
+            "公开版"
+          ]
+        },
+        {
+          "title": "颜色分类",
+          "texts": [
+            "香槟金",
+            "深空灰",
+            "月光银"
+          ]
+        },
+        {
+          "title": "内存容量",
+          "texts": [
+            "64GB"
+          ]
+        },
+        {
+          "title": "数量",
+          "texts": [
+            "（限购 5 件）"
+          ]
+        }
+      ],
+      "status": {
+        "isSale": true,
+        "text": "立即购买"
+      }
+    },
+    "msg": "左右滑动，查看其他信息",
+    "loadMore": [
+      "继续拖动，查看详情",
+      "释放 切换到图文详情",
+      "下拉 返回商品简介",
+      "释放 返回商品简介",
+      "左右滑动 查看其他信息"
+    ],
+    "provider": "魅族",
+    "footer": {
+      "sum": "总计:",
+      "price": "¥ 2999.00",
+      "text": "立即购买"
+    },
+    "description": [
+      "dtl_01.jpg",
+      "dtl_02.jpg",
+      "dtl_03.jpg",
+      "dtl_04.jpg",
+      "dtl_05.jpg",
+      "dtl_06.jpg",
+      "dtl_07.jpg",
+      "dtl_08.jpg",
+      "dtl_09.jpg",
+      "dtl_10.jpg",
+      "dtl_11.jpg"
+    ],
+    "standard": {
+      "basic": {
+        "title": "基本信息",
+        "list": [
+          {
+            "key": "品牌",
+            "value": "魅族"
+          },
+          {
+            "key": "型号",
+            "value": "PRO 6 Plus"
+          },
+          {
+            "key": "尺寸",
+            "value": "155.6*77.3*7.3mm"
+          },
+          {
+            "key": "电池容量",
+            "value": "3400mAh"
+          },
+          {
+            "key": "重量",
+            "value": "158g"
+          }
+        ]
+      },
+      "screen": {
+        "title": "屏幕",
+        "list": [
+          {
+            "key": "屏幕尺寸",
+            "value": "5.7英寸"
+          },
+          {
+            "key": "对比度",
+            "value": "10000：1"
+          },
+          {
+            "key": "分辨率",
+            "value": "2560×1440"
+          },
+          {
+            "key": "PPI",
+            "value": "518"
+          },
+          {
+            "key": "亮度",
+            "value": "430cd/m²（典型值）"
+          },
+          {
+            "key": "显示技术",
+            "value": " Super AMOLED"
+          },
+          {
+            "key": "制造工艺",
+            "value": "On-cell"
+          }
+        ]
+      },
+      "cap": {
+        "title": "容量",
+        "list": [
+          {
+            "key": "运行内存（RAM）",
+            "value": "4GB"
+          },
+          {
+            "key": "机身内存",
+            "value": [
+              "64GB",
+              "128GB"
+            ]
+          }
+        ]
+      },
+      "core": {
+        "title": "处理器",
+        "list": [
+          {
+            "key": "CPU",
+            "value": "Exynos 8890 处理器"
+          },
+          {
+            "key": "CPU频率",
+            "value": [
+              "64GB UFS2.0 容量：",
+              " Exynos M1 2.0GHz x 4 +",
+              "ARM® Cortex®-A53™ 1.5 GHz x 4",
+              "128GB UFS2.0 容量：",
+              "Exynos M1 2.3GHz x 4 +",
+              "ARM® Cortex®-A53™ 1.6 GHz x 4"
+            ]
+          }
+        ]
+      },
+      "camera": {
+        "title": "摄像",
+        "list": [
+          {
+            "key": "前置摄像头",
+            "value": [
+              "500万像素",
+              "ƒ/2.0 光圈",
+              "5 片式镜头",
+              "Face AE 脸部亮度智能调节",
+              "ArcSoft® 美颜算法 自适应美肤技术"
+            ]
+          },
+          {
+            "key": "后置摄像头",
+            "value": [
+              "1200万像素",
+              "连拍模式",
+              "全景模式",
+              "四轴光学防抖 出片清晰稳定",
+              "6片式镜头 好画质 强解析",
+              "PDAF 相位对焦 急速抓拍",
+              "激光辅助对焦  暗光拍照更准确",
+              "ƒ/2.0 大光圈虚化",
+              "环形 10-LED 双色温闪光灯 补光自然均匀"
+            ]
+          }
+        ]
+      },
+      "mTouch": {
+        "title": "mTouch",
+        "list": [
+          {
+            "key": "响应速度",
+            "value": "0.15s"
+          },
+          {
+            "key": "识别角度",
+            "value": "360°"
+          },
+          {
+            "key": "指纹组数",
+            "value": "5组"
+          },
+          {
+            "key": "mTouch传感器",
+            "value": "电容式触摸传感器"
+          }
+        ]
+      },
+      "operator": {
+        "title": "运营商与制式",
+        "list": [
+          {
+            "key": "公开版",
+            "value": [
+              "移动 4G TD-LTE",
+              "联通 4G TD/FDD-LTE",
+              "移动 3G TD-SCDMA",
+              "联通 3G WCDMA",
+              "移动/联通 2G GSM"
+            ]
+          }
+        ]
+      },
+      "otherParams": {
+        "title": "其他参数",
+        "list": [
+          {
+            "key": "WLAN功能",
+            "value": [
+              "802.11a/b/g/n/ac 无线网络",
+              "支持 5GHz 和 2.4GHz 频段"
+            ]
+          },
+          {
+            "key": "蓝牙",
+            "value": [
+              "Bluetooth 4.1",
+              "支持 BLE"
+            ]
+          },
+          {
+            "key": "芯片",
+            "value": [
+              "NXP Smart PA 芯片",
+              "NXP PN66T NFC 芯片"
+            ]
+          }
+        ]
+      },
+      "soundParams": {
+        "title": "音质参数",
+        "list": [
+          {
+            "key": "Hi-Fi",
+            "value": [
+              "第二代 Solo 耳放电路",
+              "ESS ES9018K2M 解码芯片",
+              "RUBYCON 红宝石薄膜电容",
+              "ADI ADA4807 运放芯片",
+              "超低阻抗聚合物钽电容",
+              "XFCB 工艺高速低功耗"
+            ]
+          }
+        ]
+      },
+      "media": {
+        "title": "多媒体",
+        "list": [
+          {
+            "key": "视频",
+            "value": "支持 MP4、3GP、MOV、MKV、AVI、FLV、MPEG 视频格式"
+          },
+          {
+            "key": "音频",
+            "value": "支持 FLAC、APE、AAC、MKA、OGG、MIDI、M4A、AMR 音频格式"
+          },
+          {
+            "key": "图片",
+            "value": "支持 JPEG、PNG、GIF、BMP 图片格式"
+          }
+        ]
+      },
+      "system": {
+        "title": "系统与应用",
+        "list": [
+          {
+            "key": "系统版本",
+            "value": "Flyme 5"
+          },
+          {
+            "key": "传感器",
+            "value": [
+              "重力感应",
+              "红外距离感应",
+              "陀螺仪",
+              "环境光度感应",
+              "触摸感应",
+              "电子罗盘",
+              "心率检测"
+            ]
+          },
+          {
+            "key": "导航定位",
+            "value": [
+              "GPS",
+              "A-GPS",
+              "GLONASS",
+              "电子罗盘"
+            ]
+          }
+        ]
+      },
+      "envir": {
+        "title": "操作环境",
+        "list": [
+          {
+            "key": "操作环境",
+            "value": [
+              "工作环境温度&nbsp;-15 至 55°C",
+              "非工作温度&nbsp;-40 至 70°C",
+              "相对湿度&nbsp;95%",
+              "工作高度&nbsp;高达 5000 米"
+            ]
+          }
+        ]
+      },
+      "listing": {
+        "title": "包装清单",
+        "list": [
+          {
+            "key": "包装清单",
+            "value": [
+              "主机 x 1",
+              "电源适配器 x 1",
+              "保修证书 x 1",
+              "SIM卡顶针 x 1",
+              "数据线 x 1"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

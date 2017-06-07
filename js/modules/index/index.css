@@ -1,0 +1,419 @@
+/* 头部 */
+.header-wrapper
+{
+    position: absolute;
+
+    width: 100%;
+
+    z-index: 99;
+}
+.header
+{
+    height: 60px;
+}
+.headerbar {
+    /* transition: all .4s ease-in-out 0s; */
+}
+.header-left
+{
+    display: block;
+    float: left;
+
+    width: 100px;
+    height: 60px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80px 15px;
+}
+.header-right
+{
+    display: inline-block;
+    float: right;
+
+    width: 24px;
+    height: 4px;
+    margin-top: 22px;
+    margin-right: 20px;
+
+    color: #bcbcbc;
+    border-top: 10px double;
+    border-bottom: 3px solid;
+    border-radius: 1px;
+}
+.header-right:focus
+{
+    color: #fff;
+}
+
+/* 菜单 */
+.menu
+{
+    font-size: 16px;
+
+    position: relative;
+    z-index: 30;
+
+    display: block;
+    overflow: hidden;
+
+    height: 0;
+
+    transition: height .4s ease 0s;
+
+    opacity: 0;
+    background-color: #fff;
+}
+.menu > ul
+{
+    padding: 20px;
+}
+.menu > ul > li
+{
+    padding: 15px 20px;
+
+    border-bottom: 1px solid #f0f0f0;
+}
+/* 菜单黑色半透明背景 */
+.bg-mask
+{
+    position: absolute;
+    z-index: 20;
+    top: 60px;
+    bottom: 60px;
+
+    display: none;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0,0,0,.5);
+}
+
+
+
+/* 轮播图 */
+.banner-section
+{
+    overflow: hidden;
+}
+.banner-wrapper
+{
+    overflow: hidden;
+}
+.banner-list ul
+{
+    overflow: hidden;
+
+    width: 600%;
+}
+.banner-list ul li
+{
+    float: left;
+
+    width: 16.66666667%;
+}
+.list-item  img
+{
+    display: block;
+
+    width: 100%;
+}
+
+
+
+/* 魅族 */
+.flagship-good {
+    box-sizing: border-box;
+    border-bottom: 1px solid #efefef;
+}
+.flagship-good img{
+    display: block;
+    width: 100%;
+}
+.section h3
+{
+    padding: 15px 20px;
+}
+.mp-list-new > li > a > img
+{
+    display: block;
+
+    width: 100%;
+}
+.mp-list-new > li > a::after
+{
+    display: block;
+
+    height: 1px;
+
+    content: '';
+}
+
+
+.mp-list li
+{
+    position: relative;
+
+    float: left;
+
+    box-sizing: border-box;
+    width: 50%;
+
+    background-color: #fff;
+}
+.mp-list li a
+{
+    display: block;
+
+    padding: 15px 0 10px;
+}
+.mp-list li img
+{
+    display: block;
+
+    width: 55%;
+    margin: 0 auto;
+}
+.mp-list li span
+{
+    display: block;
+
+    width: 100%;
+    padding: 5px 0;
+
+    text-align: center;
+}
+.mp-list li span:last-child
+{
+    padding-bottom: 0;
+
+    color: #21c1f1;
+}
+.mp-list > li::before
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 1px;
+    height: 100%;
+
+    content: '';
+
+    background-color: #f0f0f0;
+}
+.mp-list > li::after
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 1px;
+
+    content: '';
+
+    background-color: #f0f0f0;
+}
+
+/* 服务支持 */
+.service-section
+{
+    border-bottom: 1px solid #f0f0f0;
+    background-color: #fff;
+}
+.service-section > ul > li > a
+{
+    padding: 36px 0;
+}
+.service-section > ul > li > a > img
+{
+    width: 36%;
+    margin-bottom: 28px;
+}
+.service-section > ul li::before,
+.service-section > ul li::after
+{
+    display: none;
+}
+
+
+
+/* 关注我们 */
+.social
+{
+    padding: 20px 0;
+
+    text-align: center;
+
+    border-bottom: 1px solid #f0f0f0;
+    background-color: #fff;
+}
+.social > p
+{
+    color: #aaa;
+}
+.social-list
+{
+    display: inline-block;
+
+    margin-top: 15px;
+}
+.social-list > li
+{
+    float: left;
+}
+.social-list > li img
+{
+    width: 65%;
+}
+
+
+
+.footer
+{
+    padding-bottom: 1.5em;
+
+    background-color: #fff;
+}
+/* 底部导航 */
+.footer-nav
+{
+    padding: 1em 1.6em;
+}
+dl
+{
+    overflow: hidden;
+
+    border-bottom: 1px solid #f0f0f0;
+}
+dt
+{
+    position: relative;
+
+    padding: 1.2em 0;
+}
+dt::after
+{
+    font-size: 1.4em;
+    line-height: 1em;
+
+    position: absolute;
+    top: 50%;
+    right: 0;
+
+    width: 1em;
+    height: 1em;
+    margin-top: -.5em;
+
+    content: '+';
+    text-align: center;
+
+    color: #666;
+
+    transition: all .3s ease-in-out 0ms;
+}
+.footer-nav-active::after {
+    transform: rotate(135deg);
+}
+dd
+{
+    height: 0;
+
+    transition: opacity .7s ease-in-out;
+
+    opacity: 0;
+}
+dd a
+{
+    display: block;
+
+    padding: .8em .6em;
+
+    color: #999;
+}
+
+/* 版本信息 */
+.info
+{
+    position: relative;
+
+    overflow: hidden;
+
+    padding: 1em 1.6em;
+}
+
+.language
+{
+    position: absolute;
+    top: 10px;
+
+    display: inline-block;
+    overflow: hidden;
+
+    width: 34%;
+    height: 2em;
+    padding: 3px 10px;
+}
+.language ul
+{
+    position: absolute;
+    bottom: 0;
+}
+.language ul li
+{
+    padding: .5em 0;
+}
+.language ul li > i
+{
+    display: inline-block;
+
+    width: 18px;
+    height: 18px;
+
+    vertical-align: middle;
+
+    background-size: 18px 18px;
+}
+.language ul li span
+{
+    line-height: 2em;
+}
+.language .arrow
+{
+    display: inline-block;
+
+    margin: 0 3px;
+
+    border: 6px solid transparent;
+    border-bottom-color: #999;
+}
+/* 版权信息 */
+.copyright
+{
+    font-size: 12px;
+    line-height: 1.5em;
+
+    padding: 0 1.6em;
+
+    color: #999;
+}
+.go-top {
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    width: 51px;
+    height: 50px;
+    text-align: center;
+}
+.go-top em {
+    line-height: 50px;
+    border-radius: 3px;
+    padding: 10px 7px 10px 3px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .3);
+}
+.go-top img {
+    width: 100%;
+}

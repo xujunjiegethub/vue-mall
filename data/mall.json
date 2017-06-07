@@ -1,0 +1,550 @@
+{
+  "errno": 0,
+  "data": {
+    "header": {
+      "logo": "logo_b.png",
+      "user": "user.png"
+    },
+    "banner": [
+      "bn_01.png",
+      "bn_02.jpg",
+      "bn_03.jpg",
+      "bn_04.jpg",
+      "bn_05.jpg"
+    ],
+    "cates": [
+      {
+        "type": "品牌日",
+        "src": "icon_01.png"
+      },
+      {
+        "type": "分期免息购",
+        "src": "icon_02.png"
+      },
+      {
+        "type": "我的订单",
+        "src": "icon_03.png"
+      },
+      {
+        "type": "分类",
+        "src": "icon_04.png"
+      }
+    ],
+    "top3": [
+      {
+          "src": "mb_01.jpg",
+          "gid": "pro6plus"
+      },
+      {
+          "src": "mb_02.jpg",
+          "gid": "pro6plus"
+      },
+      {
+          "src": "mb_03.jpg",
+          "gid": "pro6plus"
+      }
+    ],
+    "hotPro": {
+      "title": "热门推荐",
+      "items": [
+        {
+          "name": "联想游戏手柄",
+          "flag": "限时",
+          "info": "直降60元",
+          "price": "¥79",
+          "originPrice": "¥139",
+          "src": "hot_01.png"
+        },
+        {
+          "name": "纽曼VR眼镜 ",
+          "flag": "限时",
+          "info": "直降20元",
+          "price": "¥39",
+          "originPrice": "¥59",
+          "src": "hot_02.jpg"
+        },
+        {
+          "name": "魅航行车记录仪",
+          "flag": "限时",
+          "info": "直降60元",
+          "price": "¥339",
+          "originPrice": "¥399",
+          "src": "hot_03.jpg"
+        },
+        {
+          "name": "魅族 MX6",
+          "flag": "",
+          "info": "全金属 拍照旗舰",
+          "price": "¥1599",
+          "originPrice": "",
+          "src": "hot_04.jpg"
+        },
+        {
+          "name": "魅蓝 U20",
+          "flag": "",
+          "info": "八核处理器",
+          "price": "¥899",
+          "originPrice": "",
+          "src": "hot_05.jpg"
+        }
+      ]
+    },
+    "list": [
+      {
+        "ad": [],
+        "title": "手机",
+        "items": [
+          {
+            "src": "mb_04.jpg",
+            "name": "魅蓝 5s",
+            "flag": "",
+            "info": "购32G版享3期免息",
+            "price": "¥799起",
+            "originPrice": "",
+            "sign": "免息",
+            "hl": true,
+            "signColor": "#f0415f"
+          },
+          {
+            "src": "mb_05.jpg",
+            "name": "魅族PRO 6s",
+            "flag": "限量",
+            "info": "购指定版本赠保护套",
+            "price": "¥2699",
+            "originPrice": "",
+            "sign": "免息",
+            "hl": true,
+            "signColor": "#f0415f"
+          },
+          {
+            "src": "mb_06.jpg",
+            "name": "魅蓝 Note5",
+            "flag": "免息",
+            "info": "购64G版享6期免息",
+            "price": "¥999起",
+            "originPrice": "",
+            "sign": "热卖",
+            "hl": true,
+            "signColor": "#f59646"
+          },
+          {
+            "src": "mb_07.jpg",
+            "name": "魅族PRO 6 Plus",
+            "flag": "免息",
+            "info": "64G版享3期免息",
+            "price": "¥2999",
+            "originPrice": "",
+            "sign": "",
+            "hl": true,
+            "signColor": ""
+          },
+          {
+            "src": "mb_08.jpg",
+            "name": "魅蓝 Max",
+            "flag": "",
+            "info": "6英寸大屏 4100mAh续航",
+            "price": "¥1699",
+            "originPrice": "",
+            "sign": "免息",
+            "hl": false,
+            "signColor": "#f0415f"
+          },
+          {
+            "src": "mb_09.jpg",
+            "name": "魅蓝 X",
+            "flag": "",
+            "info": "指纹支付安全快充",
+            "price": "¥1699起",
+            "originPrice": "",
+            "sign": "免息",
+            "hl": false,
+            "signColor": "#f0415f"
+          },
+          {
+            "src": "mb_10.jpg",
+            "name": "魅蓝 E",
+            "flag": "赠品",
+            "info": "保护套和ME10耳机",
+            "price": "¥1299",
+            "originPrice": "",
+            "sign": "免息",
+            "hl": true,
+            "signColor": "#f0415f"
+          },
+          {
+            "src": "mb_11.png",
+            "name": "魅蓝 5",
+            "flag": "",
+            "info": "含EP-21HD耳机",
+            "price": "¥788起",
+            "originPrice": "",
+            "sign": "",
+            "hl": false,
+            "signColor": ""
+          }
+        ]
+      },
+      {
+        "ad": [
+          "ad_01.jpg",
+          "ad_02.jpg"
+        ],
+        "title": "精选配件",
+        "items": [
+          {
+            "src": "pj_01.jpg",
+            "name": "航嘉小优USB智能排插",
+            "flag": "",
+            "info": "4口USB+IQ智能技术 1.8m线",
+            "price": "¥36.9",
+            "originPrice": "¥48",
+            "sign": "特惠",
+            "hl": false,
+            "signColor": "#f0415f"
+          },
+          {
+            "src": "pj_02.jpg",
+            "name": "魅族蓝牙小音箱",
+            "flag": "",
+            "info": "曼妙持久，好音感直达心灵",
+            "price": "¥169",
+            "originPrice": "",
+            "sign": "",
+            "hl": false,
+            "signColor": ""
+          },
+          {
+            "src": "pj_03.jpg",
+            "name": "先锋SEC-CL32S入耳式耳机",
+            "flag": "",
+            "info": "领券立减10元",
+            "price": "¥129",
+            "originPrice": "",
+            "sign": "",
+            "hl": true,
+            "signColor": ""
+          },
+          {
+            "src": "pj_04.jpg",
+            "name": "魅族 EP51蓝牙运动耳机",
+            "flag": "",
+            "info": "轻装上阵 乐享动听",
+            "price": "¥269",
+            "originPrice": "",
+            "sign": "",
+            "hl": false,
+            "signColor": ""
+          },
+          {
+            "src": "pj_05.jpg",
+            "name": "JBL Clip2蓝牙通话音箱",
+            "flag": "",
+            "info": "领券立减40",
+            "price": "¥488",
+            "originPrice": "",
+            "sign": "免息",
+            "hl": true,
+            "signColor": "#00afbe"
+          },
+          {
+            "src": "pj_06.jpg",
+            "name": "铁三角 ATH-IM70",
+            "flag": "",
+            "info": "支持换线，入烧必选",
+            "price": "¥650",
+            "originPrice": "",
+            "sign": "",
+            "hl": false,
+            "signColor": ""
+          },
+          {
+            "src": "pj_07.jpg",
+            "name": "猎奇广角+鱼眼+微距套装",
+            "flag": "",
+            "info": "手机变单反 自拍秒变大长腿 ",
+            "price": "¥59",
+            "originPrice": "¥79",
+            "sign": "",
+            "hl": false,
+            "signColor": ""
+          },
+          {
+            "src": "pj_08.jpg",
+            "name": "罗马仕AU15车充",
+            "flag": "",
+            "info": "QC2.0急速充 ",
+            "price": "¥49",
+            "originPrice": "¥59",
+            "sign": "",
+            "hl": false,
+            "signColor": ""
+          },
+          {
+            "src": "pj_09.jpg",
+            "name": "ORICO 4口USB智能充电器",
+            "flag": "",
+            "info": "一机四充  手机平板通用  ",
+            "price": "¥39.9",
+            "originPrice": "¥59",
+            "sign": "热卖",
+            "hl": false,
+            "signColor": "#f59646"
+          },
+          {
+            "src": "pj_10.jpg",
+            "name": "东芝v8 移动硬盘",
+            "flag": "",
+            "info": "3期免息  时尚轻薄",
+            "price": "¥419",
+            "originPrice": "",
+            "sign": "免息",
+            "hl": false,
+            "signColor": "#00afbe"
+          }
+        ]
+      },
+      {
+        "ad": [
+          "ad_03.jpg",
+          "ad_04.jpg"
+        ],
+        "title": "智能硬件",
+        "items": [
+          {
+            "src": "yj_01.jpg",
+            "name": "联想 GW5 无线游戏手柄",
+            "flag": "",
+            "info": "蝙蝠侠造型 兼容PC/手游",
+            "price": "¥79",
+            "originPrice": "¥139",
+            "sign": "特惠",
+            "hl": false,
+            "signColor": "#f0415f"
+          },
+          {
+            "src": "yj_02.jpg",
+            "name": "乐心运动手环mambo ",
+            "flag": "",
+            "info": "来电提醒 智能闹钟 睡眠监测",
+            "price": "¥89",
+            "originPrice": "¥99",
+            "sign": "",
+            "hl": false,
+            "signColor": ""
+          },
+          {
+            "src": "yj_03.jpg",
+            "name": "暴风魔镜S1智能VR眼镜 ",
+            "flag": "",
+            "info": "轻出新境界 近视党福音",
+            "price": "¥199",
+            "originPrice": "",
+            "sign": "免息",
+            "hl": true,
+            "signColor": "#00afbe"
+          },
+          {
+            "src": "yj_04.jpg",
+            "name": "北通蝙蝠D2E有线游戏手柄",
+            "flag": "",
+            "info": "电脑电视游戏搭档",
+            "price": "¥54.9",
+            "originPrice": "¥65",
+            "sign": "",
+            "hl": false,
+            "signColor": ""
+          },
+          {
+            "src": "yj_05.jpg",
+            "name": "乐范AirPet 空气净化器",
+            "flag": "",
+            "info": "DIY自然花香  支持3期免息",
+            "price": "¥239",
+            "originPrice": "¥299",
+            "sign": "",
+            "hl": false,
+            "signColor": ""
+          },
+          {
+            "src": "yj_06.jpg",
+            "name": "Misfit Shine2 智能手环 定制版",
+            "flag": "",
+            "info": "模拟来电 免密解锁手机",
+            "price": "¥399",
+            "originPrice": "¥799",
+            "sign": "免息",
+            "hl": false,
+            "signColor": "#00afbe"
+          },
+          {
+            "src": "yj_07.jpg",
+            "name": "新游游戏手柄Q1酷玩版",
+            "flag": "",
+            "info": "蓝牙4.0+2.4G双无线连接",
+            "price": "¥99",
+            "originPrice": "¥119",
+            "sign": "",
+            "hl": false,
+            "signColor": ""
+          },
+          {
+            "src": "yj_08.jpg",
+            "name": "南山大夫 JJQ-1颈舒按摩仪",
+            "flag": "",
+            "info": "支持3期免息",
+            "price": "¥399",
+            "originPrice": "",
+            "sign": "免息",
+            "hl": true,
+            "signColor": "#00afbe"
+          },
+          {
+            "src": "yj_09.jpg",
+            "name": "乐心S7智能体脂秤",
+            "flag": "",
+            "info": "领券立减10元",
+            "price": "¥289",
+            "originPrice": "¥299",
+            "sign": "免息",
+            "hl": true,
+            "signColor": "#00afbe"
+          },
+          {
+            "src": "yj_10.jpg",
+            "name": "云马C1电单车",
+            "flag": "",
+            "info": "懂你的智能电单车",
+            "price": "¥1999",
+            "originPrice": "¥2298",
+            "sign": "",
+            "hl": false,
+            "signColor": ""
+          }
+        ]
+      },
+      {
+        "ad": [
+          "ad_05.jpg",
+          "ad_06.jpg"
+        ],
+        "title": "手机周边",
+        "items": [
+          {
+            "src": "zb_01.jpg",
+            "name": "魅蓝 5s智能保护壳",
+            "flag": "",
+            "info": "清新亮丽 原质 原味",
+            "price": "¥39",
+            "originPrice": "",
+            "sign": "新品",
+            "hl": false,
+            "signColor": "#00c3f5"
+          },
+          {
+            "src": "zb_02.jpg",
+            "name": "PRO 6 Plus全贴合防爆保护膜",
+            "flag": "",
+            "info": "轻薄 精致 可靠 耐用",
+            "price": "¥59",
+            "originPrice": "",
+            "sign": "",
+            "hl": false,
+            "signColor": ""
+          },
+          {
+            "src": "zb_03.jpg",
+            "name": "魅蓝 X 环窗保护套",
+            "flag": "",
+            "info": "个性表盘 随心搭配",
+            "price": "¥69",
+            "originPrice": "",
+            "sign": "特惠",
+            "hl": false,
+            "signColor": "#f0415f"
+          },
+          {
+            "src": "zb_04.jpg",
+            "name": "魅蓝 Note5 智能保护壳",
+            "flag": "",
+            "info": "清新亮丽 原质 原味",
+            "price": "¥39",
+            "originPrice": "",
+            "sign": "特惠",
+            "hl": false,
+            "signColor": "#f0415f"
+          },
+          {
+            "src": "zb_05.jpg",
+            "name": "PRO 6s 音乐智能保护套",
+            "flag": "",
+            "info": "情怀未老，音乐不息",
+            "price": "¥99",
+            "originPrice": "",
+            "sign": "特惠",
+            "hl": false,
+            "signColor": "#f0415f"
+          },
+          {
+            "src": "zb_06.jpg",
+            "name": "魅蓝Max高透保护膜",
+            "flag": "",
+            "info": "更懂屏幕的保护膜",
+            "price": "¥29",
+            "originPrice": "",
+            "sign": "",
+            "hl": false,
+            "signColor": ""
+          },
+          {
+            "src": "zb_07.jpg",
+            "name": "魅蓝E 高透保护膜",
+            "flag": "",
+            "info": "高清透亮 抗刮耐磨",
+            "price": "¥29",
+            "originPrice": "",
+            "sign": "",
+            "hl": false,
+            "signColor": ""
+          },
+          {
+            "src": "zb_08.jpg",
+            "name": "魅族Micro USB金属数据线",
+            "flag": "",
+            "info": "耐用 才好用",
+            "price": "¥29",
+            "originPrice": "",
+            "sign": "",
+            "hl": false,
+            "signColor": ""
+          },
+          {
+            "src": "zb_09.jpg",
+            "name": "魅族Type-C 金属数据线",
+            "flag": "",
+            "info": "支持2A快速充电 耐用又放心",
+            "price": "¥39",
+            "originPrice": "",
+            "sign": "",
+            "hl": false,
+            "signColor": ""
+          },
+          {
+            "src": "zb_10.jpg",
+            "name": "快充电源适配器（UP0830）",
+            "flag": "",
+            "info": "快速充电 安全无忧",
+            "price": "¥29",
+            "originPrice": "",
+            "sign": "",
+            "hl": false,
+            "signColor": ""
+          }
+        ]
+      }
+    ],
+    "footer": {
+      "weixin": "请关注魅族商城公众号：MZonlineshop",
+      "src": "ewm.jpg"
+    }
+  }
+}
